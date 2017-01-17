@@ -1,0 +1,92 @@
+body {
+  font-family: Arial;
+  font-weight: lighter;
+  background-color: #2f2f2f;
+}
+
+@font-face {
+  font-family: Arial, Gadget, sans-serif;
+}
+
+.content-width {
+  position: relative;
+  width: 640px;
+  display: block;
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  font-weight: lighter;
+}
+
+#employee-wraper {
+    position: relative;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 10px 0px;
+    border-top: 1px solid #DCDCDC;
+}
+
+#employee-wraper p {
+    margin:  3px;
+}
+
+#employee-buttons {
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+h1, h2 {
+  letter-spacing: -0.5px;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+input {
+  line-height: 30px;
+  padding: 0px 5px;
+  margin: 0px 2px;
+  width: 180px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+select {
+  -webkit-appearance: menulist;
+  height: 33px;
+  width: 180px;
+  padding: 1px 5px;
+  margin: 0px 2px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+button {
+  -webkit-appearance: none;
+  border: none;
+  background-color: #5cb85c;
+  color: white;
+  height: 30px;
+  line-height: 0px;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 5px;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(158,158,158,0.38);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(158,158,158,0.38);
+  box-shadow: 0px 0px 10px 2px rgba(158,158,158,0.38);
+}

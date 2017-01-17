@@ -1,0 +1,23 @@
+{
+  "name": "ems",
+  "version": "1.0.0",
+  "description": "Employee Managment System",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.25.0",
+    "handlebars": "^4.0.6",
+    "handlebars-loader": "^1.4.0",
+    "html-loader": "^0.4.4",
+    "jquery": "^3.1.1",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "webpack-devserver": "0.0.6"
+  }
+}
